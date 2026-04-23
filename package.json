@@ -1,0 +1,58 @@
+{
+  "name": "@triceratops/aio",
+  "version": "0.1.0",
+  "description": "AI Overview / SEO optimization toolkit — JSON-LD builders, sitemap, robots.txt, OGP meta, for Vite/Next.js/WordPress sites",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./core": {
+      "types": "./src/core/index.ts",
+      "default": "./src/core/index.ts"
+    },
+    "./react-helmet": {
+      "types": "./src/react-helmet/index.ts",
+      "default": "./src/react-helmet/index.ts"
+    },
+    "./next": {
+      "types": "./src/next/index.ts",
+      "default": "./src/next/index.ts"
+    },
+    "./audit": {
+      "types": "./src/audit/index.ts",
+      "default": "./src/audit/index.ts"
+    },
+    "./templates/robots.txt": "./templates/robots.txt"
+  },
+  "scripts": {
+    "audit": "tsx bin/audit.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "bin": {
+    "aio-audit": "./bin/audit.ts"
+  },
+  "peerDependencies": {
+    "next": ">=14",
+    "react": ">=18",
+    "react-helmet-async": ">=2"
+  },
+  "peerDependenciesMeta": {
+    "next": { "optional": true },
+    "react": { "optional": true },
+    "react-helmet-async": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "next": "^15.0.0",
+    "react": "^18.3.0",
+    "react-helmet-async": "^2.0.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
