@@ -1,4 +1,5 @@
 node_modules
-dist
 *.tsbuildinfo
 .DS_Store
+# dist は package.json exports が指す配布物なので git に含める
+# （build script 整備までは手動 tsc → commit 運用）

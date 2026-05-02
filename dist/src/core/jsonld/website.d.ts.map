@@ -1,0 +1,1 @@
+{"version":3,"file":"website.d.ts","sourceRoot":"","sources":["../../../../src/core/jsonld/website.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,UAAU,EAAE,MAAM,aAAa,CAAC;AAE5D,MAAM,WAAW,YAAY;IAC3B,WAAW,CAAC,EAAE,MAAM,CAAC;IACrB,UAAU,CAAC,EAAE,MAAM,CAAC;IACpB,uBAAuB,CAAC,EAAE,MAAM,CAAC;CAClC;AAED,wBAAgB,kBAAkB,CAAC,IAAI,EAAE,UAAU,EAAE,KAAK,GAAE,YAAiB,GAAG,YAAY,CA8B3F"}

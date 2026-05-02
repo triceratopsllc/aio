@@ -8,27 +8,32 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "types": "./src/index.ts",
-      "default": "./src/index.ts"
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
     },
     "./core": {
-      "types": "./src/core/index.ts",
-      "default": "./src/core/index.ts"
+      "types": "./dist/src/core/index.d.ts",
+      "default": "./dist/src/core/index.js"
     },
     "./react-helmet": {
-      "types": "./src/react-helmet/index.ts",
-      "default": "./src/react-helmet/index.ts"
+      "types": "./dist/src/react-helmet/index.d.ts",
+      "default": "./dist/src/react-helmet/index.js"
     },
     "./next": {
-      "types": "./src/next/index.ts",
-      "default": "./src/next/index.ts"
+      "types": "./dist/src/next/index.d.ts",
+      "default": "./dist/src/next/index.js"
     },
     "./audit": {
-      "types": "./src/audit/index.ts",
-      "default": "./src/audit/index.ts"
+      "types": "./dist/src/audit/index.d.ts",
+      "default": "./dist/src/audit/index.js"
     },
     "./templates/robots.txt": "./templates/robots.txt"
   },
+  "files": [
+    "dist",
+    "templates",
+    "README.md"
+  ],
   "scripts": {
     "audit": "tsx bin/audit.ts",
     "typecheck": "tsc --noEmit"

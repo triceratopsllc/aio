@@ -1,0 +1,1 @@
+{"version":3,"file":"nextjs-code.d.ts","sourceRoot":"","sources":["../../../../src/audit/targets/nextjs-code.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,WAAW,EAA8B,MAAM,aAAa,CAAC;AAuL3E,wBAAsB,kBAAkB,CAAC,IAAI,EAAE;IAAE,WAAW,EAAE,MAAM,CAAC;IAAC,IAAI,CAAC,EAAE,MAAM,CAAA;CAAE,GAAG,OAAO,CAAC,WAAW,CAAC,CAqD3G"}
